@@ -20,7 +20,8 @@
      <h1>Pictures</h1>  
 </div> 
 
-<div class="boxed3">
+<div class="row">
+  <div class="column">
     <iframe src="https://drive.google.com/file/d/1bS-o7DQBi1OK6PGtc6N9V7gek7LhahEE/preview" width="640" height="480"></iframe>
     <img src="https://scontent-iad3-1.cdninstagram.com/vp/3c4cc48d3c564b845f25a6675005b831/5D4661EC/t51.2885-15/e35/57118339_130833531409923_8493804246077420760_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com">
     <img src="https://www.firstfirebirds433.com/uploads/1/2/3/2/12325635/img-2728_orig.jpg">
@@ -56,6 +57,8 @@
     <img src="https://lh6.googleusercontent.com/Dft7yJxJ0KTWIwpenYPlDGVac6I4iyHRJ1TiXtM9DJ_QAGmj8KNb21o4Ws8=w2400">
     <img src="https://lh4.googleusercontent.com/N_FqLw47fNUoEMklzCI9D9Yzolp4yhxX5HMnlwhnxY0R95vc2tg0JDaX1Do=w2400">
     <img src="https://lh4.googleusercontent.com/-Zx2_ZiJEq8kI1wBUeCkl_1fRmIgwQCYvBfjh1Ccy8WNYgSRzckRss_Tx2w=w2400">
+  </div>
+  <div class="column">
     <img src="https://lh6.googleusercontent.com/S_UU9kkfhS9u0PynpE_1Wz-PSggX1M7LVldbfyymNTQjC9PzDSZwjC3v81o=w2400">
     <img src="https://lh6.googleusercontent.com/zYvFbkNS9YtefeEj752vwtr8EyKoxc490fAZxbmgEsbgFKDm7GpMLX3gjgs=w2400">
     <img src="https://lh6.googleusercontent.com/WCAZWsry-pVvo6FkTS8-frhRMR7uRanyyktaLbTHYdXPvLBkstFKyb-jb0I=w2400">
@@ -93,32 +96,10 @@
     <img src="https://lh6.googleusercontent.com/djHXNwuFQ1hyNGPHfa1Li3G9H34_aXYpljXSziIBMnirLC6mQVJDqYvQLan_EIX1aNg2eXWBU7E=w2400">
     <img src="https://lh3.googleusercontent.com/gQJ-0TUy3nUxv3uL8rBB_8jsyarumNaKcKq3Mue7Je7mLeMAW47ctfeZzkc6tBxfFIhBWx7Sd9w=w2400">
     <img src="https://lh4.googleusercontent.com/QONs8r-avRkJ-cV4TcvzpuDGoJuwgWIg5hizHo9oaPFOU-ndlA6mhcM9p2d9Q_M79sZA7qEEbeQ=w2400">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
-    <img src="">
+  </div>
+</div>
+  
+   
 
          
 </div>
@@ -165,6 +146,21 @@
       background-color: #ffff66;
     }
     
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    
+    .column {
+      flex: 50%
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical align: middle;
+    }
     
     img {
       width: 30%;
